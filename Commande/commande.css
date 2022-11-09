@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+#corp{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./image/pexels-flora-westbrook-4191622.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0; 
+    position: absolute;
+    background-attachment: fixed;
+}
+
+#formulaire{
+    display: flex;
+    background-color: white;
+    width: 60%;
+    height: 85vh;
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 7.5vh;
+}
+
+.menu{
+    list-style: none;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 3%;
+    width: 65%;  
+}
+
+.menu *{
+    margin-top: 4vh;  
+    font-size: 17px;
+}
+
+
+.menu li a{
+    text-decoration: none;
+    color: #000;
+    margin: 6%;
+    border: 1px solid transparent;
+    background-color: brown;
+}
+
+.menu li a:hover{
+    color: #C96611;
+}
+
+#gauche{
+    width: 50% ;
+    height: 90vh;
+    background-color:#ded7d0;
+    color: #000;
+}
+
+#texte input{
+    border: 2px solid #000;
+    width: 89%;
+    height: 4vh;
+    /* margin-top: 2vh; */
+}
+
+select {
+    width: 90%;
+    height: 5vh;
+}
+
+textarea{
+   border: 2px solid #000;
+   width: 75%;
+   height: 22vh;
+   margin-top: 2vh;
+   margin-left: -8%;
+}
+
+#texte{
+    margin-left: 9%;
+}
+
+#pizza{
+    margin-left: 9%;
+}
+
+#quantite input{
+    width: 87%;
+    height: 3vh;
+}
+
+#droite{
+    width: 100%;
+    height: 90vh;
+    background-color: #f7f7f7;
+    color: #000;
+    margin-left: 100%;
+    margin-top: -91.4vh;
+}
+
+
+#contenue2{
+    margin-left: 5%;
+}
+
+.ingredient{
+    margin-left: 5%;
+}
+#contenue3{
+    display: flex;
+    margin-left: 5%;
+}
+
+#right{
+    margin-left: 8%;
+}
+
+#instruction{
+    margin-left: 5%;
+}
+
+textarea{
+    margin-left: -60%; 
+    width: 80%;
+    height:6vh;
+}
+
+#bouton{
+    display: flex;
+    margin-left: 7%;
+}
+
+.bt{
+    margin-left: 25%;
+}
+
+#bouton button{
+    width: 180%;
+    height: 6vh;
+    font-weight: 800;
+    color: #fff;
+    background-color: #AB0000;
+    border-radius: 5px;
+}
+
+.commande{
+    width: 60%;
+    height: 6vh;
+    font-weight: 800;
+    color: #fff;
+    background-color: #AB0000;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+
+/* Format Telephone */
+
+@media screen and (max-width:680px){
+  
+#gauche{
+    width: 100% ;
+    height: 95vh;
+    background-color:#ded7d0;
+    color: #000;
+    margin-top: -5vh;
+    
+}
+
+#texte h1{
+    font-size: 25px;
+    text-align: center;
+    color: #AB0000;
+}
+
+.commande{
+    width: 70%;
+    height: 8vh;
+}
+
+.menu{
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: -9%;
+    width: 65%;  
+}
+#droite{
+    display: none;
+}
+
+}

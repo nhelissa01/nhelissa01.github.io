@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Faire votre commande</title>
+	<link rel="icon" href="image/logo_pizza.png">
+    <link rel="stylesheet" type="text/css" href="commande.css">
+</head>
+<body>
+   
+
+<div id="corp">
+
+	<nav id="entete">
+			
+        <ul class="menu">
+            <li><a href="../Accueil/index.html">Accueil</a></li>
+            <li><a href="../Nos services/Nos services.html">Nos Services</a></li>
+            <li><a href="../Pizzarerie/Pizzarie.html">Pizzarerie disponible</a></li>
+            <li><a href="#">Commande</a></li>
+            <li><a href="../Loisir/Loisir.html">Loisir</a></li>
+            <li><a href="../Nous Rejoindre/rejoindre.html">Nous Rejoindre</a></li>
+        </ul>
+
+    </nav>
+
+	<div id="principale">
+	   
+		<div id="formulaire">
+
+			<div id="gauche">
+				<div id="texte">
+                    <h1>Passer votre commande</h1>
+			        <label>NOM & PRENOM</label><br>
+			        <input type="text" Name="Nom">
+				        <p></p>
+			        <label>ADRESSE</label><br>
+			        <input type="text" Name="adresse"><br>
+				        <p></p>
+			       <label>TELEPHONE</label><br>
+			       <input type="number"> <br>
+				       <p></p>
+					<label>Couriel</label><br>
+					<input type="text" Name="email">
+						<p></p>
+				</div>
+				 
+			    <div id="pizza">
+				  <div>
+					<label>PIZZA</label>
+					<select name="Select" id="select" placeholder="select">
+						   <option>Pizza Pepperoni</option>
+						   <option>Pizza Diavola</option>
+						   <option>Pizza Napolitaine</option>
+						   <option>Pizza Hawaienne</option>
+						   <option>Pizza Silicienne</option>
+						   <option>Pizza Capricciosa</option>
+						   <option>Pizza Montagnarde</option>
+						   <option>Pizza au saumon fume</option>
+						   <option>Pizza Marinara</option>
+						   <option>Pizza Quatre saisons</option>
+						   <option>Pizza Calzone</option>
+						   <option>Pizza Toute garnie</option>
+						   <option>Pizza a la viande fumee</option>
+						   <option>Pizza Vegetariennes</option>
+						   <option>Pizza Viande Extra</option>
+						   <option>Special Pizza au Chocolat</option>
+				     </select>
+				 </div>
+	   
+				 <div>
+					 <label>Taille</label>
+					 <select name="text" id="mois">
+						   <option>Extra-large</option>
+						   <option>Large</option>
+						   <option>Medium</option>
+						   <option>Small</option>
+				      </select>
+				   </div>
+	   
+				   <div id="quantite">
+					   <label>QUANTITE</label><br>
+					   <input type="number"> <br>
+						    <p></p>
+				
+				   <button class="commande" type="submit">Payer votre commande</button><br><br>
+	   
+			  </div>
+
+		   </div>
+
+			<div id="droite">
+
+               <div id="contenue">
+                  <h2>Confectionner a votre gout votre pizza </h2>
+				
+				<div id="contenue2">
+				  <h3>Base(Obligatoire)</h3>
+				  <input class="bordure" type="radio" name="base" value="Pâte régulière">Pâte régulière</input><br>
+				  <input type="radio" name="base" value="Pâte mince">Pâte mince</input><br>
+				  <input type="radio" name="base" value="Pâte épaisse">Pâte épaisse</input><br>
+				</div>
+
+				  <h3 class="ingredient">Ingredients</h3>
+
+			  <div id="contenue3">
+				
+				<div id="left">
+				  <input type="checkbox" name="Ingredients" value="Anchois">Anchois</input><br>
+				  <input type="checkbox" name="Ingredients" value="Ananas">Ananas</input><br>
+				  <input type="checkbox" name="Ingredients" value="Oignons">Oignons</input><br>
+				  <input type="checkbox" name="Ingredients" value="Ail">Ail</input><br>
+				  <input type="checkbox" name="Ingredients" value="Champignons">Champignons</input><br>
+				  <input type="checkbox" name="Ingredients" value="Olives noires">Olives noires</input><br>
+				  <input type="checkbox" name="Ingredients" value="Olives vertes">Olives vertes</input><br>
+				  <input type="checkbox" name="Ingredients" value="Piments banane piquante">Piments banane piquante</input><br>
+				  <input type="checkbox" name="Ingredients" value="Piments verts">Piments verts</input><br>
+				</div>
+
+			    <div id="right">
+				  <input type="checkbox" name="Ingredients" value="Fromage">Fromage</input><br>
+				  <input type="checkbox" name="Ingredients" value="Bacon">Bacon</input><br>
+				  <input type="checkbox" name="Ingredients" value="Bœuf haché">Bœuf haché</input><br>
+				  <input type="checkbox" name="Ingredients" value="Capicollo">Capicollo</input><br>
+				  <input type="checkbox" name="Ingredients" value="Pepperoni">Pepperoni</input><br>
+				  <input type="checkbox" name="Ingredients" value="Viande fumée">Viande fumée</input><br>
+				  <input type="checkbox" name="Ingredients" value="Mozarella">Mozarella</input><br>
+				  <input type="checkbox" name="Ingredients" value="Tomate">Tomate</input><br>
+				  <input type="checkbox" name="Ingredients" value="Jambon">Jambon</input><br>
+                </div>
+			</div>
+
+			<div id="instruction">
+				  <pre><label>Instructions ou Ingredients Speciales</label><br>
+				  <textarea placeholder="par exemple : Pas de poivre, sucre, sel s'il vous plait"></textarea></pre> 
+						 <p></p>
+			</div>  
+               
+			<!-- <div id="quantite">
+				 <label>QUANTITE</label><br>
+				 <input type="number"> <br>
+					 <p></p>
+			</div> -->
+                      
+			<div id="bouton">
+			  <div>
+				<button type="submit">Valider</button>
+			  </div>
+
+			  <div class="bt">
+				<button>Annuler</button>
+			  </div>
+
+			</div>
+
+		   </div>
+	   
+		</div>
+
+   </div>
+
+
+<div>
+
+</body>
+</html>
