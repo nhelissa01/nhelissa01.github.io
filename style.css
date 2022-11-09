@@ -1,0 +1,284 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #AB0000;
+    width:100%;
+    height: 12vh ;
+    position: fixed;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    width: 100%;
+   height: 12vh;
+   margin-left: 80%;
+}
+
+#menuTelephone{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    margin: -4%;
+}
+
+.menu li a:hover{
+    color: #C96611;
+}
+
+#tete{
+    width: 100%;
+    height: 100vh;
+}
+
+#image{
+background-image: url(./imge/Site.jpg);
+background-size: cover; 
+background-repeat: no-repeat;
+width:100%;
+margin: 0;
+padding: 0;
+height:100vh;
+} 
+
+.texte  {
+    margin-left: -47%;
+    padding: 3.5% 45.5% 32.5% 55.5%;
+    font-size: 2.5rem;
+    color: #AB0000;;
+}
+
+.welcome{
+    margin-top: -70vh;
+    border: 1px solid transparent;
+}
+
+
+/* Corp de la page */
+
+#contenue {
+    padding: 7.5% 0;
+	display: inline-block;
+	width: 100%;
+    background-color: rgb(246, 246, 246);
+    margin-top: 10vh;
+}
+
+#contenue *{
+    margin-left: 5%;
+}
+
+.gauche{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+.droite{
+    width: 40%;
+    height: auto;
+    float: left;
+    padding-right: 5%;
+}
+
+.foto{
+    width: 95%;
+    height: 50vh;
+}
+
+
+/* Pied de la page */
+
+#footer{
+    width: 100%;
+    height: auto;
+    background-color: #2A2A2A;
+    font-size: 12px;
+    justify-content: center;
+    text-align:center ;
+    position: absolute;
+}
+
+#onglet{
+    margin-top: 5vh;
+}
+
+#onglet *{
+    width: 4%;
+    color: #fff;
+}
+
+#footer *{
+    margin-top: 5vh;
+}
+
+.pizza{
+   color: #fff;
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 500px;
+    margin-left: 30%;
+    
+}
+
+.menu2 li a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pied{
+     color: #fff;
+}
+
+
+
+/* Format Telephone */
+
+@media screen and (max-width:680px){
+    
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+ /* Entete de la page */
+
+header{
+   margin: 0;
+   padding: 0;
+   background: #AB0000;
+   width:100%;
+   height: 12vh ;
+   position: absolute;
+}
+
+.menu{
+   display: none;
+}
+
+#menuTelephone{
+   display: block;
+}
+
+#menuTelephone ul{ 
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   text-align: center;
+}
+
+#menuTelephone li a{ 
+   background-color: #AB0000;
+   text-decoration: none;
+   width:500px ;
+   color: #fff;
+}
+
+#menuTelephone li a:hover{
+   color: rgba(255, 255, 0, 0.411);
+} 
+
+#menuTelephone ul li ul{
+   display: none;
+}
+
+#menuTelephone ul li:hover ul{
+   display: block;
+}
+
+#menuTelephone li:hover ul li{
+   float: none;
+}
+
+#menuTelephone li ul{
+   position: absolute;
+}
+
+#menuTelephone li:hover ul li a{
+   color: #fff;
+} 
+
+.boutonMenu{
+   margin-left: 40%;
+}
+
+
+
+/* corp de la page */
+
+.gauche{
+    float: none;
+    width: 80%;
+}
+
+.droite{
+    float: none;
+    width: 80%;
+    margin-top: 10vh;
+    margin-bottom: 5vh
+}
+
+#image{
+    background-image: url(./image/pexels-horizon-content-3762075.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    height:100vh;
+} 
+
+/* pied de page */
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;  
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 1%;
+    
+}
+
+}
