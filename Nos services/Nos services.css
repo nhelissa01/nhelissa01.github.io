@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+
+#principale{
+    background-image: url(./image/nhel4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350vh;
+    margin: 0; 
+    position: absolute;
+    background-attachment: fixed;
+}
+
+.menu{
+    list-style: none;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 3%;
+    width: 50%;  
+}
+
+.menu *{
+    margin-top: 4vh;  
+}
+
+
+.menu li a{
+    text-decoration: none;
+    color: #000;
+    margin: 6%;
+    border: 1px solid transparent;
+    background-color: brown;
+}
+
+.menu li a:hover{
+    color: #C96611;
+}
+
+
+/* Corp de la page */
+
+#contenue1{
+    display: flex;
+}
+
+.logo{
+    width: 60%;
+    height: 20vh;
+    margin-left: 200px;
+}
+
+#menuTelephone{
+    display: none;
+}
+
+button{
+    border: 1px solid transparent;
+    background-color: brown;
+    padding: 12px 28px;
+    font-weight: bold;
+    border-radius: 28px;
+    font-size: 15px;
+    margin-left: 850px;
+    margin-top: 15vh;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover{
+    color: #C96611;
+}
+
+#contenue2{
+    border: 1px solid rgba(241, 225, 225, 0.918);
+    width: 60%;
+    height: auto;
+    background-image: url(./image/nhel2.jpg);
+    background-color:rgba(241, 225, 225, 0.918);
+    margin-left: 20%;
+    margin-top: 10vh;
+}  
+
+
+#texte{
+    margin-left: 20px;
+}
+
+#texte h1{
+    font-size: 40px;
+    color: brown;
+}
+
+#texte p{
+    font-size: 18px;
+    margin-top: -3vh;
+    color: brown;
+}
+
+#tableau{
+    text-align: center;
+    margin-left: 13%;
+    color: #000;
+    border-radius: 4px;
+}
+
+table{
+    background-color: #fff;
+    width:80%;
+    height:"30%";
+}
+
+.image{
+    width: 80%;
+    height: 10vh;
+}
+
+  /* Pied de page */
+  
+  #footer{
+    width: 100%;
+    height: 38vh;
+    background-color: #2A2A2A;
+    font-size: 12px;
+    justify-content: center;
+    text-align:center ;
+}
+
+#onglet{
+    margin-top: 5vh;
+}
+
+#onglet *{
+    width: 3%;
+    color: #fff;
+}
+
+#footer *{
+    margin-top: 5vh;
+}
+
+.pizza{
+   color: #fff;
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 500px;
+    margin-left: 30%;
+    
+}
+
+.menu2 li a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pied{
+     color: #fff;
+}
+
+
+/* Format Telephone */
+
+@media screen and (max-width:680px){
+
+/* tete de page */
+
+.menu{
+    display: none;
+}
+
+#menuTelephone{
+    display: block;
+}
+
+.menu{
+    display: none;
+}
+    
+#menuTelephone{
+    display: block;
+}
+    
+#menuTelephone ul{ 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+    
+#menuTelephone li a{ 
+    background-color: #AB0000;
+    text-decoration: none;
+    width:500px ;
+    color: #fff;
+}
+    
+#menuTelephone li a:hover{
+    color: rgba(255, 255, 0, 0.411);
+} 
+    
+#menuTelephone ul li ul{
+    display: none;
+}
+    
+#menuTelephone ul li:hover ul{
+    display: block;
+}
+    
+#menuTelephone li:hover ul li{
+    float: none;
+}
+    
+#menuTelephone li ul{
+    position: absolute;
+}
+    
+#menuTelephone li:hover ul li a{
+    color: #fff;
+} 
+    
+.boutonMenu{
+    margin-left: 40%;
+    margin-top: 15vh;
+    font-size: 25px;
+}
+
+
+/* corp de la page */
+
+#principale{
+    height: 330vh;
+}
+
+#texte{
+  display: none;
+}
+
+#contenue2{
+    width: 75%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 10vh;
+}  
+
+#tableau{
+    text-align: center;
+    margin-left: -15%;
+    color: #000;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: -5vh;
+}
+
+    
+button{
+    border: 1px solid transparent;
+    background-color: brown;
+    padding: 12px 28px;
+    font-weight: bold;
+    border-radius: 28px;
+    font-size: 15px;
+    margin-left: 120px;
+    margin-top: 15vh;
+}
+    
+}
